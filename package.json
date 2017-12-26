@@ -1,0 +1,23 @@
+{
+  "name": "@sachingadagi/reactnativesweetalert",
+  "version": "1.0.0",
+  "description": "React Native wrapper for Sweet Alert Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sachingadagi/react-native-sweet-alert.git"
+  },
+  "keywords": [
+    "React-Native",
+    "Alert"
+  ],
+  "author": "Sachin Gadagi <sgadagi@gmail.com> (http://www.sachingadagi.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sachingadagi/react-native-sweet-alert/issues"
+  },
+  "homepage": "https://github.com/sachingadagi/react-native-sweet-alert#readme"
+}
