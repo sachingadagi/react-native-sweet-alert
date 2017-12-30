@@ -31,7 +31,7 @@ public class SweetAlertModule extends ReactContextBaseJavaModule {
     private static final String ERROR_TYPE = "ERROR_TYPE";
     private static final String NORMAL_TYPE = "NORMAL_TYPE";
     private static final String CUSTOM_IMAGE_TYPE = "CUSTOM_IMAGE_TYPE";
-
+    private static final String SUCCESS_TYPE = "SUCCESS_TYPE";
 
     SweetAlertDialog pDialog;
     Context self;
@@ -46,6 +46,7 @@ public class SweetAlertModule extends ReactContextBaseJavaModule {
         constants.put(ERROR_TYPE, SweetAlertDialog.ERROR_TYPE);
         constants.put(PROGRESS_TYPE, SweetAlertDialog.PROGRESS_TYPE);
         constants.put(NORMAL_TYPE, SweetAlertDialog.NORMAL_TYPE);
+        constants.put(SUCCESS_TYPE, SweetAlertDialog.SUCCESS_TYPE);
         constants.put(CUSTOM_IMAGE_TYPE, SweetAlertDialog.CUSTOM_IMAGE_TYPE);
         return constants;
     }
@@ -104,8 +105,8 @@ public class SweetAlertModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void setBarWidth(String color){
-        getInstance().getProgressHelper().setBarWidth(Color.parseColor(color));
+    public void setBarWidth(Integer width){
+        getInstance().getProgressHelper().setBarWidth(width);
     }
 
 
