@@ -1,6 +1,6 @@
 {
   "name": "@sachingadagi/reactnativesweetalert",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Native wrapper for Sweet Alert Library",
   "main": "index.js",
   "scripts": {
